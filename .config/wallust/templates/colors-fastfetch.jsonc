@@ -1,0 +1,117 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "padding": {
+      "top": 1
+    }
+  },
+  "display": {
+    "separator": " 󰑃  "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "os",
+      "key": " DISTRO",
+      "keyColor": "{{color5}}"
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "{{color5}}"
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "{{color5}}"
+    },
+    {
+      "type": "shell",
+      "key": "│ └",
+      "keyColor": "{{color5}}"
+    },
+    {
+      "type": "wm",
+      "key": "☐ DE/WM",
+      "keyColor": "{{color3}}"
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ ├󰉼",
+      "keyColor": "{{color3}}"
+    },
+    {
+      "type": "cursor",
+      "key": "│ ├",
+      "keyColor": "{{color3}}"
+    },
+    {
+      "type": "terminalfont",
+      "key": "│ ├",
+      "keyColor": "{{foreground}}"
+    },
+    {
+      "type": "terminal",
+      "key": "│ ├",
+      "keyColor": "{{foreground}}"
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├󰻠",
+      "keyColor": "{{foreground}}"
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├󰻑",
+      "keyColor": "{{foreground}}",
+      "format": "{2}"
+    },
+    {
+      "type": "display",
+      "key": "│ ├󰍹",
+      "keyColor": "{{foreground}}",
+      "compactType": "original-with-refresh-rate"
+    },
+    {
+      "type": "memory",
+      "key": "│ ├󰾆",
+      "keyColor": "{{color9}}"
+    },
+    {
+      "type": "swap",
+      "key": "│ ├󰓡",
+      "keyColor": "{{color9}}"
+    },
+    {
+      "type": "uptime",
+      "key": "│ ├󰅐",
+      "keyColor": "{{foreground}}"
+    },
+    {
+      "type": "display",
+      "key": "│ └󰍹",
+      "keyColor": "{{foreground}}"
+    },
+    {
+      "type": "sound",
+      "key": " AUDIO",
+      "keyColor": "{{color9}}",
+      "format": "{2}"
+    },
+    {
+      "type": "player",
+      "key": "│ ├󰥠",
+      "keyColor": "{{color9}}"
+    },
+    {
+      "type": "media",
+      "key": "│ └󰝚",
+      "keyColor": "{{color9}}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;0m\u2588\u2588\u001b[38;5;1m\u2588\u2588\u001b[38;5;2m\u2588\u2588\u001b[38;5;3m\u2588\u2588\u001b[38;5;4m\u2588\u2588\u001b[38;5;5m\u2588\u2588\u001b[38;5;6m\u2588\u2588\u001b[38;5;7m\u2588\u2588\u001b[0m \u001b[38;5;8m\u2588\u2588\u001b[38;5;9m\u2588\u2588\u001b[38;5;10m\u2588\u2588\u001b[38;5;11m\u2588\u2588\u001b[38;5;12m\u2588\u2588\u001b[38;5;13m\u2588\u2588\u001b[38;5;14m\u2588\u2588\u001b[38;5;15m\u2588\u2588\u001b[0m"
+    },
+    "break"
+  ]
+}

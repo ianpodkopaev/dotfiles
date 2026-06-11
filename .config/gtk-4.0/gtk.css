@@ -1,0 +1,71 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* wallust template - colors-gtk4 (Nautilus / GTK4) */
+
+/* Main window */
+nautilus-window {
+  background-color: #1F1F1F;
+  color: #F0F0F0;
+}
+nautilus-window .view {
+  background-color: #1F1F1F;
+  color: #F0F0F0;
+}
+
+/* Sidebar */
+placessidebar,
+placessidebar .navigation-sidebar,
+placessidebar .navigation-sidebar > row {
+  background-color: #464546;
+  color: #F0F0F0;
+}
+placessidebar .navigation-sidebar > row:selected {
+  background-color: #9D9C9D;
+  color: #1F1F1F;
+}
+placessidebar .navigation-sidebar > row:hover {
+  background-color: #616162;
+}
+placessidebar .navigation-sidebar > row:selected:hover {
+  background-color: #9D9C9D;
+}
+
+/* Toolbar / headerbar */
+toolbar,
+headerbar {
+  background-color: #464546;
+  color: #F0F0F0;
+}
+
+/* Floating bar */
+.floating-bar {
+  background-color: #464546;
+  color: #F0F0F0;
+}
+
+/* Path bar */
+#NautilusPathBar {
+  background-color: #464546;
+}
+#NautilusPathButton {
+  color: #F0F0F0;
+}
+#NautilusPathButton:hover {
+  background-color: #616162;
+}
+#NautilusPathButton.current-dir {
+  background-color: #9D9C9D;
+  color: #1F1F1F;
+}
+
+/* Search bar */
+#NautilusQueryEditor {
+  background-color: #464546;
+  color: #F0F0F0;
+}
+
+/* Selected items */
+.view:selected,
+.view:selected:focus {
+  background-color: #9D9C9D;
+  color: #1F1F1F;
+}

@@ -1,0 +1,71 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* wallust template - colors-gtk4 (Nautilus / GTK4) */
+
+/* Main window */
+nautilus-window {
+  background-color: {{background}};
+  color: {{foreground}};
+}
+nautilus-window .view {
+  background-color: {{background}};
+  color: {{foreground}};
+}
+
+/* Sidebar */
+placessidebar,
+placessidebar .navigation-sidebar,
+placessidebar .navigation-sidebar > row {
+  background-color: {{color0}};
+  color: {{foreground}};
+}
+placessidebar .navigation-sidebar > row:selected {
+  background-color: {{color5}};
+  color: {{background}};
+}
+placessidebar .navigation-sidebar > row:hover {
+  background-color: {{color2}};
+}
+placessidebar .navigation-sidebar > row:selected:hover {
+  background-color: {{color5}};
+}
+
+/* Toolbar / headerbar */
+toolbar,
+headerbar {
+  background-color: {{color0}};
+  color: {{foreground}};
+}
+
+/* Floating bar */
+.floating-bar {
+  background-color: {{color0}};
+  color: {{foreground}};
+}
+
+/* Path bar */
+#NautilusPathBar {
+  background-color: {{color0}};
+}
+#NautilusPathButton {
+  color: {{foreground}};
+}
+#NautilusPathButton:hover {
+  background-color: {{color2}};
+}
+#NautilusPathButton.current-dir {
+  background-color: {{color5}};
+  color: {{background}};
+}
+
+/* Search bar */
+#NautilusQueryEditor {
+  background-color: {{color0}};
+  color: {{foreground}};
+}
+
+/* Selected items */
+.view:selected,
+.view:selected:focus {
+  background-color: {{color5}};
+  color: {{background}};
+}

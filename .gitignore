@@ -1,0 +1,7 @@
+*.hyprlainbak
+*.bak
+*.backup
+scripts/beep
+wallpaper_effects/.wallpaper_current
+wallpaper_effects/.wallpaper_modified
+nvim/lazy-lock.json
